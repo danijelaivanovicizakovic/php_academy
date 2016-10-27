@@ -45,6 +45,7 @@
     <input type="radio" name="godina"/><label>3</label><br>
     <input type="radio" name="godina"/><label>4</label><br>
     <input type="radio" name="godina"/><label>5</label><br>
+    <input type="radio" name="godina"/><label>niti jedna</label><br>
 
     <br><label>Što te motiviralo da se prijaviš?</label>
     <textarea rows="5" cols="50" name="motivacija"> </textarea><br>
