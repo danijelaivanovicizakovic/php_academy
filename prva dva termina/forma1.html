@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<form action="program.php" method="post">
+    Channel 8 Title:<br><input type="text" name="channel0Title" value="Channel 7"><br>
+    Gain:<br><input type="text" name="channel0Gain" value="4.000"><br>
+    Offset:<br><input type="text" name="channel0Offset" value= "6.000"><br>
+    <input type="submit" id ="submitButton" value="Submit">
+</form>
+<?php
+    $podaciPrijavljenih="prijave.txt";
+    $podaciPrijavljenih=fopen($podaciPrijavljenih,'w') or die("can't open file");
+    fclose($podaciPrijavljenih);
+?>
+</body>
+</html>

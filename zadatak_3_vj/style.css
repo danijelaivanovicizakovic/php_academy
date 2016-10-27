@@ -1,0 +1,82 @@
+*{
+  font-family: 'Cormorant Garamond', serif;
+  color: #0059b3;
+  font-size: 30px;
+}
+body {
+  padding: 5px;
+  margin : 5px;
+  background-color: #b3d9ff;
+}
+#navigacija{
+  margin-left: 15%;
+}
+ul {
+  position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;  
+   
+}
+li{
+  position: middle;
+  width: 30%;
+  text-align: center;
+  padding: 5px;  
+  border: 2px solid #00264d;
+  border-radius: 5px;
+  margin: 50px, 50px, 50px, 50px; 
+  display: inline-block;
+  background-color: #b3d9ff;
+  color: #00264d;
+}
+a:link{
+  text-decoration: none;
+  color: #00264d;
+}
+li:hover{
+  background-color: #ffcc99;
+}
+a:visited{
+  color: #00264d;
+}
+h1{
+  text-align: center;
+  font-family: 'Sanchez', serif;
+  color:#00264d;
+  font-size: 50px;
+  font-weight: bolder;
+}
+textarea { 
+  display: block; 
+  padding: 10px;
+  margin:10px;
+  border-radius: 5px;
+  background-color: #ccddff;
+  color: #0059b3;
+}
+input{
+  display: inline-block;
+  padding: 10px;
+  margin:10px;
+  border-radius: 5px;
+  background-color: #ccddff;
+}
+input:focus, textarea:focus{
+  background-color: #ffcc99;
+}
+
+input[type=text],
+input[type=email],
+input[type=number],
+textarea,
+img{
+  float: center;
+  border: 2px solid #00264d;
+  margin: 10px;
+}
+input[type=submit]{
+  width : 40%;
+  border: 2px solid #00264d;
+  margin-left: 30%;
+}
