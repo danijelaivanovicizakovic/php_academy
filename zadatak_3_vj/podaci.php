@@ -55,8 +55,8 @@ fwrite($prijave, $predznanje);
 ?>
 
 <?php
-	echo ("Poštovani ".$ime." zahvaljujemo ti na prijavi. <br>"); 
-	echo ("Sve obavijsti vezane uz PHP akademiju poslati ćemo ti na ovaj: ".$email . "e-mail"."<br>"); 
+    echo ("Poštovani ".$_POST["ime"]." zahvaljujemo ti na prijavi."."<br>"); 
+    echo ("Sve obavijsti vezane uz PHP akademiju poslati ćemo ti na ovaj: ".$_POST["email"]."e-mail"."<br>"); 
 ?>
 </body>
 </html>
